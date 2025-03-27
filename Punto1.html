@@ -5198,19 +5198,20 @@ los mejores o los peores?</p>
 <p>Para dar respuesta a esta pregunta, fue necesaria la creación del siguiente índice:</p>
 <p>Para dar respuesta a esto se decidio crear un indice el cual tenia en cuenta las siguientes ponderaciones para cada variable:</p>
 <div class="math notranslate nohighlight">
-\[
-\text{Indice} = (3 \times \text{Partidos Ganados}) + (1.5 \times \text{Goles Anotados}) - (2 \times \text{Partidos Perdidos}) - (1.2 \times \text{Goles Recibidos}) + (5 \times \text{Mundiales Jugados})
-\]</div>
+\[\text{Indice} = (3 \times \text{Partidos Ganados}) + (1.5 \times \text{Goles Anotados}) - (2 \times \text{Partidos Perdidos}) - (1.2 \times \text{Goles Recibidos}) + (5 \times \text{Mundiales Jugados})\]</div>
 <p>Donde cada término representa:</p>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\( \text{Partidos Ganados} \)</span>: Número total de victorias.</p></li>
-<li><p><span class="math notranslate nohighlight">\( \text{Goles Anotados} \)</span>: Número total de goles marcados.</p></li>
-<li><p><span class="math notranslate nohighlight">\( \text{Partidos Perdidos} \)</span>: Número total de derrotas.</p></li>
-<li><p><span class="math notranslate nohighlight">\( \text{Goles Recibidos} \)</span>: Número total de goles en contra.</p></li>
-<li><p><span class="math notranslate nohighlight">\( \text{Mundiales Jugados} \)</span>: Cantidad de participaciones distintas en Copas Mundiales.</p></li>
+<li><p><strong>Partidos Ganados</strong>: Número total de victorias.</p></li>
+<li><p><strong>Goles Anotados</strong>: Número total de goles marcados.</p></li>
+<li><p><strong>Partidos Perdidos</strong>: Número total de derrotas.</p></li>
+<li><p><strong>Goles Recibidos</strong>: Número total de goles en contra.</p></li>
+<li><p><strong>Mundiales Jugados</strong>: Cantidad de participaciones distintas en Copas Mundiales.</p></li>
 </ul>
 <p><strong>Interpretación:</strong> A mayor valor del índice, mejor desempeño general ha tenido la selección considerando victorias, efectividad ofensiva, defensa y experiencia en torneos internacionales.</p>
-<p><strong>Nota:</strong> El cálculo de este índice se realiza en la función RankingSeleccionesFiltrada alojada en la sección “Funciones utilizadas” al inicio de este documento.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El cálculo de este índice se realiza en la función RankingSeleccionesFiltrada alojada en la sección “Funciones utilizadas” al inicio de este documento.</p>
+</div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">RankingSeleccionesFiltradas</span><span class="p">(</span><span class="n">resumen</span><span class="p">)</span>
@@ -6166,7 +6167,7 @@ if (outputEl) {{
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Prueba Técnica - Emanuel Carbonell</p>
+        <p class="prev-next-title"><strong>Prueba Técnica - Emanuel Carbonell</strong></p>
       </div>
     </a>
     <a class="right-next"

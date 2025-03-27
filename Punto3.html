@@ -407,7 +407,10 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comparacion-con-modelos-de-machine-learning"><strong>Comparacion con Modelos de Machine Learning</strong></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion"><strong>Conclusión</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion"><strong>Conclusión</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#no-convergeencia-del-modelo-logistico-con-todos-los-dummies"><strong>No convergeencia del modelo logístico con todos los dummies</strong></a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -3678,6 +3681,8 @@ member_card_bin     1.2807        nan        nan        nan         nan         
 <h2><strong>Conclusión</strong><a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h2>
 <p>Los análisis permitieron identificar tres perfiles diferenciados de clientes según su percepción de valor, experiencia en tienda y nivel de fidelidad. Estos grupos revelan comportamientos y prioridades distintas que Starbucks puede aprovechar para personalizar sus estrategias. Por ejemplo, un clúster mostró alta valoración del servicio y fuerte intención de fidelización, lo que lo convierte en un público ideal para programas de membresía o promociones exclusivas.</p>
 <p>Además, al evaluar distintos modelos predictivos, se encontró que el Árbol de Decisión y el Random Forest fueron los más precisos y balanceados, con un F1-Score del 90%. Esto sugiere que Starbucks debería apoyarse en estos modelos para identificar clientes leales de forma más efectiva y tomar decisiones basadas en datos para fidelizar a sus segmentos más valiosos.</p>
+<section id="no-convergeencia-del-modelo-logistico-con-todos-los-dummies">
+<h3><strong>No convergeencia del modelo logístico con todos los dummies</strong><a class="headerlink" href="#no-convergeencia-del-modelo-logistico-con-todos-los-dummies" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">modelo</span> <span class="o">=</span> <span class="n">modelo_limpio</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -3773,6 +3778,7 @@ Maximum Likelihood optimization failed to converge. Check mle_retvals
 </div>
 </section>
 </section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -3858,7 +3864,10 @@ Maximum Likelihood optimization failed to converge. Check mle_retvals
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comparacion-con-modelos-de-machine-learning"><strong>Comparacion con Modelos de Machine Learning</strong></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion"><strong>Conclusión</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion"><strong>Conclusión</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#no-convergeencia-del-modelo-logistico-con-todos-los-dummies"><strong>No convergeencia del modelo logístico con todos los dummies</strong></a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
